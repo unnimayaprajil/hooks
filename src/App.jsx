@@ -1,7 +1,7 @@
-
+import Home from "./components/Home"
 const App =()=>{
   return(
-  <h2>hellooo</h2>
+  <Home/>
   )
 }
 export default App
