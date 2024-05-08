@@ -5,7 +5,7 @@ const Home = () => {
     const [name, setName] = useState("johny")
     useEffect(() => {
         console.log('initial call')
-        fetch('https://jsonplaceholder.typicode.com/todos/2')
+        fetch('https://jsonplaceholder.typicode.com/posts')
             .then(response => response.json())
             .then(json => console.log(json))
         return () => {

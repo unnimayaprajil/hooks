@@ -1,7 +1,11 @@
 import Home from "./components/Home"
-const App =()=>{
-  return(
-  <Home/>
+import Post from "./components/Post"
+const App = () => {
+  return (
+    <>
+      {/* <Home /> */}
+      <Post />
+    </>
   )
 }
 export default App
