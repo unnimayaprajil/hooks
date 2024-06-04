@@ -1,7 +1,8 @@
+import Parent from "./components/Parent"
 
 const App =()=>{
   return(
-  <h2>hellooo</h2>
+  <Parent/>
   )
 }
 export default App
